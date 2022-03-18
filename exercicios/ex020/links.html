@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        SELETORES PERSONALINZADOS
+        #  = ID
+        .  = CLASSE
+        :  = PSEUDO-CLASS
+        :: = PSEUDO-ELEMENT
+        >  = CHILDREN
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #027368, #038C7F, #04BFAD);
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+        a:hover{
+            color: rgb(14, 243, 45);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::before{
+            content: ' ☛ ' ;
+        }
+
+        a::after {
+            content: ' ☚ ';
+        }
+
+        #principal:hover{
+            color: white
+        }
+
+        .paragrafo{
+            text-align: justify;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/JackiieRocha/" target="_blank">Facebok</a></li>
+        <li><a href="https://www.instagram.com/jaquelinefrocha/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+    </ul>
+    <h1 id="principal">Título 01</h1>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus illo nesciunt laboriosam libero, ullam dicta veniam iusto consequuntur in tenetur recusandae officia molestiae consectetur voluptate hic sunt earum doloribus molestias!</p>
+    <h2>Subtitulo 02</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur saepe inventore fuga, in fugiat est totam laborum. Similique rerum distinctio dolor, ut nesciunt tempore. Saepe dolorem dolores delectus repellat?</p>
+    <h1 id="principal">Titulo 03</h1>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt error iure nihil labore cum! Doloribus, cum laborum dicta nobis fugit ipsam iusto quasi at optio sit dolorum minima quod animi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia veniam iste inventore nemo optio assumenda, molestias eaque sequi consequatur. Sunt, animi atque. Provident perferendis repellat ullam laudantium doloremque mollitia culpa.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam ipsum tempora repellat! Repellendus, perspiciatis doloribus voluptatem officiis accusamus ex esse quae, nesciunt iusto velit veritatis repellat magni eius optio!</p>
+</body>
+</html>

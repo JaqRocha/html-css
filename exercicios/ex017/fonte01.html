@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTES EM CSS</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+
+            /* MEDIDAS ABSOLUTAS: 
+            CM, MM, IN, PX, PT, PC
+
+            MEDIDAS RELATIVAS
+            EM, EX, REM, VW, VH, %
+
+            RECOMENDADAS: PX EM
+
+            16PX é o tamanho e o recomendável = 1EM (melhor)
+            */
+
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            /*SHORTHAND FONT: (vários codigos em um só)
+            código acima em apenas uma linha de código
+            FONT STYLE - FONT WEIGHT - FONT SIZE - FONT FAMILY
+            */
+
+            font: italic bolder 1em 'courier new, monospace';
+
+            /*Peso da fonte. 
+            As medidas são: lighter (mais leve), normal, bold (negrito), bolder (mais negrito)
+            As medidas também podem ser por meio de valores: 100 a 900 (algumas fontes não tem todas as variações.*/
+        }
+        h1, h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>    
+</head>
+
+<body> 
+    <h1>Trabalhando com Fontes</h1>
+    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, illum soluta magni totam nostrum modi ipsum recusandae nihil, amet error eum natus consequatur cupiditate ipsam. Ratione quos inventore omnis adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi earum eaque repellat, commodi molestiae optio. Unde libero laudantium, odit praesentium architecto atque dolore omnis illo quod distinctio voluptates officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto vel perspiciatis at dolores a. Numquam amet quam saepe veritatis inventore, aliquid doloremque provident deleniti voluptas, esse architecto corrupti asperiores nostrum!</P>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil neque ab pariatur quas cumque aspernatur sapiente tempore suscipit repellendus iure dolorum praesentium, nam commodi. Provident exercitationem excepturi illum sunt!</p>   
+</body>
+</html>
