@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh; /*Altura da view port (pode ser mudado)*/
@@ -15,11 +15,19 @@
             background-size: cover; 
             /*contain faz que 100% da imagem seja exibida*/
             /*Cover vai fazer caber independente do tamanho da tela*/
+            background-attachment: fixed; 
+            /*Deixar a imagem fixada*/
+
+
+            /*SHORTHAND - BACKGROUND: 
+                COLOR > IMAGE > POSITION > REPEAT > [MENOS O SIZE] > ATTACHMENT*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px; /*Largura*/
+            max-width: 400px; /*Largura*/
             padding: 10px;
             margin: auto; /*Ficar no meio*/
             border: 1px solid darkblue;
